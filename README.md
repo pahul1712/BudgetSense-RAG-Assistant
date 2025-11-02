@@ -47,4 +47,57 @@
 from langchain.vectorstores import AstraDB
 from langchain.chains import RetrievalQA
 from langchain.embeddings import HuggingFaceEmbeddings
+```
+
+---
+
+## 🧪 Example Queries
+
+| ❓ Question                                     | 💬 Model’s Answer                                                                |
+| ---------------------------------------------- | -------------------------------------------------------------------------------- |
+| *What are the key goals of Budget 2025–26?*    | Accelerate growth, promote inclusivity, boost MSMEs, and enhance spending power. |
+| *What is the focus of the agriculture engine?* | Launch of “Prime Minister Dhan-Dhaanya Krishi Yojana” covering 100 districts.    |
+| *What changes are proposed for MSMEs?*         | Credit limits increased; new classification and support for exporters.           |
+
+
+---
+
+## 🧩 Folder Structure
+
+```bash
+BudgetSense-RAG/
+│
+├── BudgetSense_RAG.ipynb       # Main Google Colab notebook
+├── budget_speech.pdf            # Example input document
+├── requirements.txt             # Required dependencies
+└── README.md                    # Project documentation
+```
+
+---
+
+## 🧰 Installation & Setup
+
+```
+pip install langchain langchain-groq cassio datasets
+pip install pypdf sentence-transformers
+```
+
+---
+
+🌟 Future Enhancements
+
+- 🗂️ Multi-document RAG system (upload multiple PDFs).
+- 🌐 Streamlit web interface for interactive querying.
+- 🔍 Integration with Groq LLaMA or Gemini 1.5 Flash for faster inference.
+
+
+---
+
+👨‍💻 Author
+
+Pahuldeep Singh Dhingra\\\
+🎓 M.S. in Data Science & Analytics, Florida Atlantic University 
+
+
+
 
