@@ -1,0 +1,6 @@
+langchain-community
+langchain
+langchain-openai
+cassio
+datasets
+PyPDF2
